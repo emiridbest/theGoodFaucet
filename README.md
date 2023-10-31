@@ -1,10 +1,15 @@
 
 ## The Good Faucet
 
-Demo : https://www.loom.com/share/4622c6da35034ffc95d583d0dc4ad729?sid=f58575a2-85ba-405c-925c-b4fd08110187
-
-
 Empowering Lives Through Universal Basic Income"
+
+# Demo : https://www.loom.com/share/4622c6da35034ffc95d583d0dc4ad729?sid=f58575a2-85ba-405c-925c-b4fd08110187
+
+# How It Works
+
+   - Beneficiaries  first register and verify their decentralised identity on lens protocol then request for fundsa on a dalily basis
+   - Donors / Philantropist can donate by streaming G$ to the contract address
+
 
 Introduction Universal Basic Income (UBI) is a social and economic concept where the government provides all citizens or residents of a country with a regular, unconditional sum of money, regardless of their income, employment status, or wealth. UBI is typically paid on a regular basis, such as monthly or annually, and is designed to cover basic living expenses. It is often seen as a means to address poverty, income inequality, and provide economic security to all members of society.
 
@@ -46,10 +51,6 @@ Our Solution
         "Fostering financial stability and economic security."
         "Our mission: Redefining social welfare."
 
-How It Works
-
-   - Beneficiaries  first register and verify their decentralised identity on lens protocol then request for fundsa on a dalily basis
-   - Donors / Philantropist can donate by streaming G$ to the contract address
 
 Technology Stack
 
