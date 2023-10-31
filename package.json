@@ -1,0 +1,37 @@
+{
+  "name": "malachi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.8.3",
+    "@heroicons/react": "^2.0.18",
+    "@mui/material": "^5.14.8",
+    "@rainbow-me/rainbowkit": "^1.0.11",
+    "@superfluid-finance/tokenlist-repo": "superfluid-finance/tokenlist",
+    "@superfluid-finance/widget": "^0.4.0",
+    "animate.css": "^4.1.1",
+    "autoprefixer": "10.4.15",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.4.19",
+    "ethers": "^6.7.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "graphql": "^16.8.0",
+    "magic-sdk": "^20.1.1",
+    "next": "13.4.19",
+    "postcss": "8.4.29",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.3.3",
+    "wagmi": "^1.4.1",
+    "web3": "^4.1.1"
+  },
+  "devDependencies": {
+    "typescript": "5.2.2"
+  }
+}
