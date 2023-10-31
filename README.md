@@ -65,9 +65,8 @@ Technology Stack
 
 Challenges and Solutions
 
-    Initial funding constraints.
-    User onboarding complexities.
-    Getting started with Ink.
+    I was skeptical about getting it to fully work(faucet disbursing funds) but it worked perfectly well at the end of the day
+    
 
 Future Plans
 
@@ -102,4 +101,3 @@ Conclusion
     Our Commitment: Empowering individuals, one UBI claim at a time.
     Together, we can create a world where financial stability is a reality for all.
 
-Admin based smart contract faucet with a simple time-out mechanism, it allows an admin to specify the airdrop amount and the timeout.
