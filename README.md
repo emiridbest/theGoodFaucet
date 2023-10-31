@@ -1,68 +1,104 @@
-# malaFlix
-A social video streaming DApp where creators earn directly as user stream their contents
-=======
-Project Title: Decentralized Streaming Platform - MalaFlix
 
-Description:
+## The Good Faucet
 
-MalaFlix is a revolutionary decentralized streaming platform that combines the best features of popular streaming services like Netflix and TikTok while adding a unique twist. With MalaFlix, content creators can directly earn funds as viewers watch their content, thanks to the integration of Superfluid, a real-time financial protocol. This platform offers a decentralized, censorship-resistant, and fair environment for both content creators and viewers.
-
-  
-
-This project is an entirely original work by our dedicated team. We built MalaFlix on top of the following tooling:
-
-    Magic sdk for social authentication
-    Solidity Smart Contracts
-    Lens Protocol for decentralized identity management
-    Superfluid for real-time financial streaming
-    Apollo Client for GraphQL integration
-    Wagmi for interacting with the blockchain
-    Web3.js for Ethereum blockchain integration
-    Next.js for the frontend
-
-    Demo: https://youtu.be/KpYYdSA45zU
+Demo : https://www.loom.com/share/4622c6da35034ffc95d583d0dc4ad729?sid=f58575a2-85ba-405c-925c-b4fd08110187
 
 
-Challenges:
+Empowering Lives Through Universal Basic Income"
 
-Superfluid not supporting some testnet.
+Introduction Universal Basic Income (UBI) is a social and economic concept where the government provides all citizens or residents of a country with a regular, unconditional sum of money, regardless of their income, employment status, or wealth. UBI is typically paid on a regular basis, such as monthly or annually, and is designed to cover basic living expenses. It is often seen as a means to address poverty, income inequality, and provide economic security to all members of society.
 
-![1](https://github.com/emiridbest/malaFlix/assets/6362475/84ca75b3-01c7-4084-b56a-e67ff1e7a1ca)
+Key characteristics of Universal Basic Income include:
 
-![2](https://github.com/emiridbest/malaFlix/assets/6362475/b5156699-7fbc-4679-a18a-e05e09f46136)
+    Unconditional: UBI is provided without any means testing or work requirements. Every eligible individual, regardless of their financial situation, receives the income.
 
-![3](https://github.com/emiridbest/malaFlix/assets/6362475/f7c8febe-c691-4597-8ecf-aea4d40e0e66)
+    Regular Payments: UBI is distributed at regular intervals, such as monthly or annually, to ensure ongoing financial support.
 
+    Individual Payments: Each eligible individual receives their own UBI, which can be used as they see fit.
 
-![4](https://github.com/emiridbest/malaFlix/assets/6362475/ba980e38-d59f-4cd4-868c-bb1e81a2e05d)
+    Cash Transfer: UBI is typically provided as a cash transfer, allowing recipients to spend the money on their most pressing needs, whether it's food, housing, education, healthcare, or any other essential expense.
 
-![5](https://github.com/emiridbest/malaFlix/assets/6362475/3c5039ee-f97f-42a1-9f6a-ed20ded66cfa)
+    Universal Coverage: UBI is intended to cover all residents or citizens of a country, irrespective of their age or employment status.
 
+The primary objectives of UBI are:
 
-![6](https://github.com/emiridbest/malaFlix/assets/6362475/0c560ca0-bc86-41cd-86bf-a96ace1379fd)
+    Poverty Reduction: UBI aims to provide a financial safety net for individuals, reducing poverty and ensuring that basic needs are met.
 
-![7](https://github.com/emiridbest/malaFlix/assets/6362475/f21180c4-0781-46ab-b7e1-fb0d8fdb7e3c)
-![8](https://github.com/emiridbest/malaFlix/assets/6362475/1519b4ee-8154-4f16-a192-0b547b5467e3)
+    Income Security: It offers a level of income security, particularly in the face of economic fluctuations, job loss, or changing labor markets.
 
-![9](https://github.com/emiridbest/malaFlix/assets/6362475/0663b9f1-e365-4b40-828a-a71ccd541877)
+    Simplification: UBI can simplify welfare systems by replacing multiple means-tested benefits with a single, universal payment.
 
+    Economic Stimulus: By putting money in the hands of consumers, UBI can stimulate economic activity and increase demand for goods and services.
 
-![10](https://github.com/emiridbest/malaFlix/assets/6362475/4fe74525-4586-476f-8b3f-31c06e7b474d)
+UBI has been a subject of debate and experimentation in various countries and regions. Proponents argue that it can address income inequality, improve social welfare, and adapt to changing work dynamics, such as automation and the gig economy. Critics raise concerns about its cost, potential disincentives to work, and the need for additional taxation.
 
-![11](https://github.com/emiridbest/malaFlix/assets/6362475/a016bb4c-d429-49fe-a1c0-af9da584bbc2)
+The implementation of UBI can vary significantly from one place to another, and it's often a topic of political discussion and policy development. Some pilot programs and experiments have been conducted to assess the impact of UBI in different contexts.ntion the importance of financial stability and equality
 
+The Problem
 
+    "1.1 billion out of 6.1 billion people (just over 18%) live in acute multidimensional poverty across 110 countries. "
+    "Sub-Saharan Africa (534 million) and South Asia (389 million) are home to approximately five out of every six poor people"
 
+Our Solution
 
-![Screenshot from 2023-09-21 19-01-29](https://github.com/emiridbest/malaFlix/assets/6362475/6ebd4f0c-61f3-42e3-b6cb-321c9d3e6398)
+    "The Good Faucet" as a Solution:
+        "Empowering individuals to claim Universal Basic Income."
+        "Fostering financial stability and economic security."
+        "Our mission: Redefining social welfare."
 
-![Screenshot from 2023-09-21 19-01-42](https://github.com/emiridbest/malaFlix/assets/6362475/2b1694a0-b3aa-422d-aa71-93f5a0e19958)
+How It Works
 
-![Screenshot from 2023-09-21 19-01-36](https://github.com/emiridbest/malaFlix/assets/6362475/20215599-b712-4a6d-8912-3e58c3d3d78d)
+   - Beneficiaries  first register and verify their decentralised identity on lens protocol then request for fundsa on a dalily basis
+   - Donors / Philantropist can donate by streaming G$ to the contract address
 
-![12](https://github.com/emiridbest/malaFlix/assets/6362475/270a8291-c5a3-49aa-b1ca-e75b3cb2db84)
+Technology Stack
 
+    "Superfluid"
+    "Solidity"
+    "Typescript"
+    "Tailwing CSS"
+    "Javascript"
+    "Lens Protocol"
+    "Remix"
+    ""
 
-# theGoodFaucet
-# theGoodFaucet
-# theGoodFaucet
+Challenges and Solutions
+
+    "Initial funding constraints."
+    "User onboarding complexities."
+    "Getting started with Ink."
+
+Future Plans
+
+    "Scaling Up: Expanding to reach a broader audience."
+    "Increasing UBI Amounts: Aiming for greater impact."
+    "Global Partnerships: Collaborating with organizations."
+
+User Experience
+
+    "Intuitive Interface: Making UBI claiming effortless."
+    "User Dashboard: Real-time tracking of UBI disbursements."
+
+Security and Transparency
+
+    "Data Encryption: Protecting user privacy."
+    "Blockchain Ledger: Immutable and auditable transactions."
+    "Open Source: Ensuring full transparency."
+
+Sustainability
+
+    "Revenue Model: Generating income through partnerships and donations."
+    "Community Support: Built on the support of our user community."
+
+Impact on Society
+
+    "Reducing poverty rates by 20% in the first five years."
+    "Stimulating local economies."
+    "Paving the way for a more equitable future."
+
+Conclusion
+
+    "Our Commitment: Empowering individuals, one UBI claim at a time."
+    "Together, we can create a world where financial stability is a reality for all."
+
+Admin based smart contract faucet with a simple time-out mechanism, it allows an admin to specify the airdrop amount and the timeout.
