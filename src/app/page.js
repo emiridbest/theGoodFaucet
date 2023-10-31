@@ -11,6 +11,7 @@ import { client, getOwnedBy } from "../components/utils";
 import productDetails from "../components/productDetails";
 import paymentDetails from "../components/paymentDetails";
 import { Footer, Header } from "../components/Index";
+import "animate.css";
 
 export default function Home() {
   const [walletAddress, setWalletAddress] = useState("");
@@ -100,29 +101,27 @@ export default function Home() {
     fetchProfile();
   };
 
-    async function donate() {
-      if (account) {
-        console.log("Donating funds...");
-          setSender("true");
-        //  setExistingLensWallet(walletAddress);
-
-          } else {
-            return
-          }
+  async function donate() {
+    if (account) {
+      console.log("Donating funds...");
+      setSender("true");
+      //  setExistingLensWallet(walletAddress);
+    } else {
+      return;
     }
-  async function requestFunds() {
-    setContract(contract);
-        setWalletAddress(account);
-        fetchProfile();
-        if(lensHandleExists=="true"){
-        const result = await contract.methods
-          .requestTokens()
-          .send({ from: account, gasLimit: 500000 });
-        }
-        // You can handle the result as needed
-        setRequestResult("Funds received!");
-      }
+  }
 
+  async function requestFunds() {
+    setWalletAddress(account);
+    fetchProfile();
+    if (lensHandleExists == "true") {
+      const result = await contract.methods
+        .requestTokens()
+        .send({ from: account, gasLimit: 3000000 });
+    }
+    // You can handle the result as needed
+    setRequestResult("Funds received!");
+  }
 
   const customPaymentDetails = paymentDetails.paymentOptions.map((option) => {
     return {
@@ -134,14 +133,20 @@ export default function Home() {
   return (
     <main className="container mx-auto p-1 font-serif">
       <Header />
+
       <section className="container mx-auto flex flex-col items-center text-center">
-      <p className="max-w-prose text-3xl">
-      Empowering Lives Through Universal Basic Income
+        <p className="max-w-prose text-3xl animate__animated animate__fadeIn">
+          Empowering Lives Through Universal Basic Income
         </p>
-  <p className="max-w-prose text-1xl">
-    Universal Basic Income (UBI) is a social and economic concept where the government provides all citizens or residents of a country with a regular, unconditional sum of money, regardless of their income, employment status, or wealth. UBI is typically paid on a regular basis, such as monthly or annually, and is designed to cover basic living expenses. It is often seen as a means to address poverty, income inequality, and provide economic security to all members of society.
-  </p>
-</section>
+
+        <p className="max-w-prose text-1xl">
+          Universal Basic Income (UBI) is a social and economic concept where the government provides all citizens or 
+          residents of a country with a regular, unconditional sum of money, regardless of their income, employment status, 
+          or wealth. UBI is typically paid on a regular basis, such as monthly or annually, and is designed to cover 
+          basic living expenses. It is often seen as a means to address poverty, income inequality, and provide 
+          economic security to all members of society.
+        </p>
+      </section>
 
       <section className="container mx-auto mt-10  flex justify-center items-center">
         <button
@@ -162,10 +167,7 @@ export default function Home() {
             required
             onChange={handleChange}
           />
-          <button
-            className="hidden"
-            onClick={handleSubmit}
-          >
+          <button className="hidden" onClick={handleSubmit}>
             Submit
           </button>
         </section>
