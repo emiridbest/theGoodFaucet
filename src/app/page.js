@@ -131,7 +131,7 @@ export default function Home() {
   });
 
   return (
-    <main className="container mx-auto p-1 font-serif">
+    <main className="container mx-auto p-1 bg-gypsum font-serif ">
       <Header />
 
       <section className="container mx-auto flex flex-col items-center text-center">
@@ -140,11 +140,14 @@ export default function Home() {
         </p>
 
         <p className="max-w-prose text-1xl">
-          Universal Basic Income (UBI) is a social and economic concept where the government provides all citizens or 
-          residents of a country with a regular, unconditional sum of money, regardless of their income, employment status, 
-          or wealth. UBI is typically paid on a regular basis, such as monthly or annually, and is designed to cover 
-          basic living expenses. It is often seen as a means to address poverty, income inequality, and provide 
-          economic security to all members of society.
+          Universal Basic Income (UBI) is a social and economic concept where
+          the government provides all citizens or residents of a country with a
+          regular, unconditional sum of money, regardless of their income,
+          employment status, or wealth. UBI is typically paid on a regular
+          basis, such as monthly or annually, and is designed to cover basic
+          living expenses. It is often seen as a means to address poverty,
+          income inequality, and provide economic security to all members of
+          society.
         </p>
       </section>
 
@@ -183,7 +186,7 @@ export default function Home() {
             )}
             {lensHandleExists === "false" && (
               <section>
-                {nonExistingLensWallet} Identity cannot be ascertained!!1
+                {nonExistingLensWallet} Identity cannot be ascertained!!!
               </section>
             )}
           </section>
